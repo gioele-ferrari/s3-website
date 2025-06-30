@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>S3-Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #111;
+      --text: #eee;
+      --accent: #0070f3;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 1px solid #222;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 900;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+
+    main h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+
+    main p {
+      font-size: 1.125rem;
+      max-width: 600px;
+      margin-bottom: 2rem;
+      color: #aaa;
+    }
+
+    a.button {
+      text-decoration: none;
+      background: var(--accent);
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: background 0.3s ease;
+    }
+
+    a.button:hover {
+      background: #0059c1;
+    }
+
+    footer {
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.875rem;
+      color: #666;
+      border-top: 1px solid #222;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Creato da Gioele Ferrari</h1>
+  </header>
+
+  <main>
+    <h2>Benvenuto nel mio progetto AWS #1</h2>
+    <p>Sito web per testare le funzioni di Amazon S3 e creare un progetto.</p>
+    <a href="#" class="button">Inizia Ora</a>
+  </main>
+
+  <footer>
+    © 2025 - Creato con ❤️ da <a href="https://github.com/gioele-ferrari">gioele-ferrari</a>
+  </footer>
+</body>
+</html>
