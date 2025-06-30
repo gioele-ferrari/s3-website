@@ -6,13 +6,13 @@ S3 consente di **salvare, archiviare e recuperare** qualsiasi quantità di dati,
 
 ---
 
-## 🎯 Obiettivo del progetto
+## Obiettivo del progetto
 
 L'obiettivo di questo progetto è comprendere come utilizzare **Amazon S3** per ospitare un **sito web statico**, e configurarne correttamente l'accesso pubblico.
 
 ---
 
-## 🔧 Fasi di sviluppo
+## Fasi di sviluppo
 
 ### 1. Creazione del bucket
 
@@ -29,7 +29,7 @@ Ho creato un bucket S3 con le seguenti impostazioni:
 
 Ho realizzato un semplice sito web statico costituito dal file `index.html`, che si trova all'interno della cartella del progetto.
 
-👉 [Visualizza file index.html](index.html)
+[Visualizza file index.html](index.html)
 
 ---
 
@@ -47,7 +47,7 @@ Ho impostato come documento di indice: `index.html`.
 
 Dopo aver abilitato l'hosting, ho provato ad accedere al sito dal seguente URL:
 
-🔗 [http://s3-website-gioele.s3-website.eu-central-1.amazonaws.com](http://s3-website-gioele.s3-website.eu-central-1.amazonaws.com)
+[http://s3-website-gioele.s3-website.eu-central-1.amazonaws.com](http://s3-website-gioele.s3-website.eu-central-1.amazonaws.com)
 
 Tuttavia, il browser restituiva un **errore 403 – Accesso negato**.
 
@@ -110,6 +110,6 @@ Infine, per evitare il superamento dei limiti del **piano gratuito AWS Free Tier
 
 ---
 
-## ✅ Conclusioni
+## Conclusioni
 
 Questo esperimento mi ha permesso di capire come funziona il **deployment di siti statici tramite Amazon S3**, come gestire l’accesso pubblico e applicare policy di protezione per evitare modifiche indesiderate.
