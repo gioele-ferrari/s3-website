@@ -1,8 +1,6 @@
 
 # S3 Website
 
-![Amazon S3 Hosting](https://via.placeholder.com/1000x300.png?text=Amazon+S3+Website+Hosting)
-
 In questo progetto ho utilizzato **Amazon S3 (Simple Storage Service)**, un servizio di archiviazione oggetti offerto da **AWS (Amazon Web Services)**.  
 S3 consente di **salvare, archiviare e recuperare** qualsiasi quantità di dati, da qualsiasi parte del mondo, in qualsiasi momento.
 
