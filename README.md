@@ -1,5 +1,5 @@
 
-# S3 Website
+# S3 Static Website
 
 In questo progetto ho utilizzato **Amazon S3 (Simple Storage Service)**, un servizio di archiviazione oggetti offerto da **AWS (Amazon Web Services)**.  
 S3 consente di **salvare, archiviare e recuperare** qualsiasi quantità di dati, da qualsiasi parte del mondo, in qualsiasi momento.
